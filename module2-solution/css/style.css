@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0b3c5d; // dark teal
+}
+
+div {
+  color:  #3c3c3c; // charcoal grey
+
+}
+
+h1 {
+  font-family: 'Poiret One', cursive;
+  font-size: 3em;
+  margin: auto;
+
+  text-align: center;
+  color:  #e9e9e9; // light grey
+}
+
+.col {
+  float: left;
+
+  padding: 10px;
+  position: relative;
+}
+
+.card {
+  //background-color: #cdcdcd;
+  background-color: #1d2731;
+  border: 1px solid #bfbfbf;
+  padding: 10px;
+}
+
+.sub-heading {
+  border: 1px solid #bfbfbf;
+  color: #e8e8e8;
+  font-size: 125%;
+  margin-left: 80%;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+}
+
+.contents {
+  padding-top: 5px;
+  color: #d9d9d9;
+  font-family: 'Open Sans', sans-serif;
+}
+
+@media (min-width: 992px) {
+  .col-lg {
+    width: 33.33%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-med {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-sml {
+    width: 100%;
+  }
+}
+
+#chicken {
+  background-color: #d9b310;
+}
+
+#beef {
+  background-color: #328cc1;
+}
+
+#sushi {
+  background-color: #af473c;
+}
