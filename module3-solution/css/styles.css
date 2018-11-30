@@ -1,0 +1,91 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f4b06c;
+  color: #47599e;
+}
+
+#header-nav {
+  background-color: #fbe8a6;
+  border-radius: 0;
+  border: 0;
+  height: auto;
+}
+
+#hamburgerIcon {
+    color: #a0cade;
+    background-color: #d2f2ff;
+}
+
+.navbar {
+    min-height: 6em;
+}
+
+#navList a {
+  color: #47599e;
+  background-color: #d2f2ff;
+  text-align: center;
+  font-family: 'Poiret One', cursive;
+  font-size: 4vw;
+}
+
+#cafe-title {
+  font-family: 'Poiret One', cursive;
+  color: #a0cade;
+  font-size: 3em;
+  margin-top: -10px;
+  padding: .25em;
+}
+
+.contents {
+  padding-top: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.col {
+  float: left;
+
+  padding: 10px;
+  position: relative;
+}
+
+.card {
+  display: flex;
+  background-color: #d2f2ff;
+  padding: 10px;
+  box-shadow: 5px 5px #a0cade;
+}
+
+.food-name {
+  font-weight: bold;
+}
+
+.price {
+  text-indent: 2em;
+}
+
+.food-desc {
+  text-indent: 2em;
+}
+
+.sub-heading1 {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.sub-heading2 {
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+#logo-img {
+  background: url('../images/cafe-logo.png') no-repeat;
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px 5px 5px;
+}
